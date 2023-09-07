@@ -4,4 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(response):
-    return HttpResponse('Ahoj ako sa mas ?')
+    return HttpResponse('<h1>Ahoj ako sa mas ?<h1/>')
+
+def v1(response):
+    return HttpResponse('<h1>view 1!!<h1/>')
